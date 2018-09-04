@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const clientId = 'a13abbf09afa4d1c83555b877860fca5';
 const clientSecret = 'ab450ef76504464790692a360259f731'; // Reset before production
 const redirectUri = 'http://localhost:3001/spotify/callback';
-const clientUri = 'http://localhost:3001/';
+const clientUri = 'http://localhost:8080/';
 
 const state = {
     access_token: undefined
