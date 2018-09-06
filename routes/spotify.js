@@ -12,7 +12,7 @@ const state = {
 };
 
 router.get('/login', function(req, res) {
-    var scopes = 'user-read-private user-read-email playlist-read-private playlist-read-collaborative';
+    var scopes = 'user-read-private user-read-email playlist-read-private playlist-read-collaborative streaming user-read-birthdate';
     res.redirect('https://accounts.spotify.com/authorize' +
       '?response_type=code' +
       '&client_id=' + clientId +
